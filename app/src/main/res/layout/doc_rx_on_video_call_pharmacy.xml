@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_10">
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:text="Patient's Selected Pharmacy"
+        android:textColor="@color/darkness_gray"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:text="CVS/pharmacy #3436"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_15"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:text="2809 S. SOSSAMAN RD., MESA, AZ"
+        android:textColor="@color/darkness_gray"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:text="85212"
+        android:textColor="@color/darkness_gray"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:text="P. (480) 354-6142"
+        android:textColor="@color/darkness_gray"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:text="P. (480) 354-6155"
+        android:textColor="@color/darkness_gray"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_15"
+        android:layout_marginBottom="@dimen/dp_10">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/search"
+            android:backgroundTint="@color/black_color"
+            android:scaleY="0.6"
+            android:scaleX="0.6"
+            android:layout_gravity="center"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:text="Search for Different Pharmacy"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginLeft="@dimen/dp_5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

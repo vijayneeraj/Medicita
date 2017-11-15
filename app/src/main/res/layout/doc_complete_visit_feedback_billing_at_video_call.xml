@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="start|center"
+    android:padding="@dimen/dp_20"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/error"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            app:customFont="@string/font_regular"
+            android:text="Patient is Insured"
+            android:textColor="@color/red"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+    <com.medicitadocter.custom.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:hint="$ 49.00"
+        android:textColorHint="@color/darkness_gray"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_5"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="end"
+        android:text="15 Minutes"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_5"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvChangePatientCard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Change Patient Card"
+        android:background="@color/yellow"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_5"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Do not charge at this time"
+        android:background="@drawable/rounded_corner_bleed_blue_solid_white"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+</LinearLayout>

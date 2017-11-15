@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="start|center"
+    android:padding="@dimen/dp_20"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/tick_black"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:text="Health Record Acknowledged"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/tick_black"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:text="Chief Complaint"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/tick_black"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:text="History of Present illness"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/tick_black"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:text="Assessment"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/tick_black"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:text="Plan"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/tick_black"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:text="Discharge Instructions"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="10dp"
+            android:background="@mipmap/error"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/dp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:text="ePrescribe"
+            android:textColor="@color/red"
+            android:textSize="@dimen/sp_14" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Loginscreen theme. -->
+    <style name="LoginTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/login_color</item>
+        <item name="colorPrimaryDark">@color/login_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--Custom RadioButton-->
+    <style name="RadioButton">
+        <item name="android:radioButtonStyle">@drawable/radio_button</item>
+        <item name="background">@color/blue</item>
+        <item name="android:width">@dimen/dp_30</item>
+        <item name="android:height">@dimen/dp_30</item>
+        <item name="android:textColor">@color/whit_txt</item>
+    </style>
+
+    <!--Custom RatingBar-->
+    <style name="ratingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/blue</item>
+        <item name="colorControlActivated">@color/blue</item>
+    </style>
+
+    <!--Custom RatingBar Red-->
+    <style name="RatingBarRed" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/red</item>
+        <item name="colorControlActivated">@color/red</item>
+
+    </style>
+
+
+    <!--CustomCheckBox-->
+    <style name="CheckBox" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/darkness_gray</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--rating bar-->
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/yellow</item>
+    </style>
+
+    <!--rating bar-->
+    <style name="RatingBarPink" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/pink</item>
+    </style>
+
+
+    <style name="DialogStyle">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottomdia</item>
+    </style>
+
+    //Custom style for TabLayout
+    <style name="CustomTabStyle" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_background</item>
+    </style>
+
+    //Custom TabLayout TextAppereance
+    <style name="TabLayoutTextApp" parent="TextAppearance.Design.Tab">
+        //its work
+        <!--<item name="android:textColor">@drawable/tab_text_seletor</item>-->
+        <item name="android:textSize">12sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

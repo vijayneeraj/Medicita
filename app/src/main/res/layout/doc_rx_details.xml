@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_40"
+    android:background="@drawable/rounted_corner_light_gray_solid_white">
+
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:background="@color/colorPrimary"
+            android:layout_weight="0">
+            <com.medicitadocter.custom.CustomTextView
+                android:id="@+id/tvDialogTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Details"
+                android:textColor="@color/whit_txt"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dp_10"/>
+            <ImageView
+                android:id="@+id/ivCancel"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:background="@mipmap/close"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/dp_5" />
+        </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollIndicators="none"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_10">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Patient : "
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15" />
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gary Gower"
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15"/>
+
+            </LinearLayout>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1019 W. Onza Ave"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_5" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mesa, AZ 85212"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_5" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(480)444-6136"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_5" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Bruce Banner"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_20" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1745 S Alma School Rd Suite"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_5" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#146"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_5" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mesa, AZ 85210"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_5" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(602)892-4381"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_5" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marvel Medicine"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_20" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reference : "
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15" />
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COBL 1155980"
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Visit Date : "
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15" />
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Apr 05, 2017"
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time of Visit : "
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15" />
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12:10 pm"
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration : "
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15" />
+                <com.medicitadocter.custom.CustomTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5 minutes"
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/sp_15"/>
+
+            </LinearLayout>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amount"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/sp_15"
+                android:layout_marginTop="@dimen/dp_20" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This visit has not been billed"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_2" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHIEF COMPLAINT"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/sp_15"
+                android:layout_marginTop="@dimen/dp_20" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I think i have pink eye"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_2" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DETAILS"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/sp_15"
+                android:layout_marginTop="@dimen/dp_20" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DESCRIPTION OF ILLNESS"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_2" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="My eye is red and nasty"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_5" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_2" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ARE YOU A NEW PATIENT ?"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_5" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_2" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/dp_10"
+        android:gravity="center"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <com.medicitadocter.custom.CustomTextView
+                android:id="@+id/tvPrev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prev"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginRight="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_2" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvOne"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/dp_5" />
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvTwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/dp_5" />
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvThree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/dp_5" />
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvFour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/dp_5"
+                    android:textColor="@color/black_color"/>
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvFive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textColor="@color/black_color"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/dp_5" />
+            </LinearLayout>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:id="@+id/tvNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:textColor="@color/black_color"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:layout_gravity="center"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_2" />
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvDownloadPdf"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Download PDF"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:customFont="@string/font_regular"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+    </LinearLayout>

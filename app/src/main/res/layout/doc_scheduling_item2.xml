@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="120dp"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_height="40dp">
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:text="All Days"
+        android:padding="@dimen/dp_5"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_18" />
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<LinearLayout
+    android:id="@+id/llQualificationsSubLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_10"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/tick"
+            android:scaleY="1"
+            android:scaleX="1"
+            android:layout_marginRight="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approved"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/reject"
+            android:scaleY="1.2"
+            android:scaleX="1.2"
+            android:layout_marginRight="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rejected"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/wait"
+            android:scaleY="1.2"
+            android:scaleX="1.2"
+            android:layout_marginRight="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Awaiting Qualification"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_5"/>
+        </LinearLayout>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(May take up to 48 hours)"
+        android:textColor="@color/darkness_gray"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_5"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medicita will review your profile"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_15"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Only approved item are visible for patients. Unmarked items are automatically approved."
+        android:textColor="@color/darkness_gray"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginBottom="@dimen/dp_5"/>
+
+</LinearLayout>

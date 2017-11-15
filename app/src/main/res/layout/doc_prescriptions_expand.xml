@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/dp_10"
+        android:background="@color/white"
+        android:layout_weight="0.5">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Allergies"
+            app:textAllCaps="true"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Horses"
+            android:textColor="@color/darkness_gray"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_5"/>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="penicllns"
+            android:textColor="@color/darkness_gray"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_5"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/edit_yellow"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:layout_weight="2"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_2"
+        android:padding="@dimen/dp_10"
+        android:background="@color/white"
+        android:layout_weight="0.5">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Medications"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Ibuprofen (Advli, Motrin)"
+            android:textColor="@color/darkness_gray"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_5"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/edit_yellow"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:layout_weight="2"/>
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_2"
+        android:padding="@dimen/dp_10"
+        android:background="@color/white"
+        android:layout_weight="0.5">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Conditions"
+            android:textAllCaps="true"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Add Reflux, Hypertension, Kindly Disease"
+            android:textColor="@color/darkness_gray"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_5"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/edit_yellow"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:layout_weight="2"/>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_2"
+        android:padding="@dimen/dp_10"
+        android:background="@color/white"
+        android:layout_weight="0.5">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Medical Procedures"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Hip Replacement"
+            android:textColor="@color/darkness_gray"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_5"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/edit_yellow"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:layout_weight="2"/>
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_2"
+        android:padding="@dimen/dp_10"
+        android:background="@color/white"
+        android:layout_weight="0.5">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Family History"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start|center"
+            android:text="Heart Attack, Hypertension, Stroke"
+            android:textColor="@color/darkness_gray"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_5"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/edit_yellow"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:layout_weight="2"/>
+
+        </LinearLayout>
+
+</LinearLayout>

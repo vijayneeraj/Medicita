@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg_img">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/llTitleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:padding="@dimen/dp_10"
+        android:layout_weight="1">
+
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_weight="0"
+            android:gravity="start|center"
+            android:text="Gray Gower"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_15" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_weight="0"
+            android:gravity="start|center"
+            android:text="1.20"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_5"/>
+
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/video_notification"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_gravity="center"
+            android:layout_weight="0"/>
+
+        <RelativeLayout
+            android:id="@+id/rlNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="10dp" >
+
+            <ImageView
+                android:id="@+id/ivNotificationBG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/solid_circular_red_notification_indicator"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:layout_centerInParent="true"/>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:id="@+id/tvNotificationCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="9"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_12"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <include layout="@layout/doc_chat_outgoing_text_bubble"/>
+
+        <include layout="@layout/doc_chat_outgoing_text_bubble"/>
+
+        <include layout="@layout/doc_chat_incoming_text_bubble"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/yellow"
+        android:layout_weight="0">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:background="@color/white"
+            android:gravity="start|center"
+            android:text=""
+            android:hint="Say Something..."
+            android:textColorHint="@color/darkness_gray"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_20"
+            android:padding="@dimen/dp_10"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/send_black"
+            android:scaleY="0.6"
+            android:scaleX="0.5"/>
+
+    </LinearLayout>
+
+</LinearLayout>

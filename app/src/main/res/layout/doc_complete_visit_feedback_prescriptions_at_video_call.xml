@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="start|center"
+    android:padding="@dimen/dp_20"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="start"
+            android:text="No Prescriptions have been sent."
+            android:textColor="@color/black_color"
+            app:customFont="@string/font_regular"
+            android:textSize="@dimen/sp_14" />
+
+
+</LinearLayout>

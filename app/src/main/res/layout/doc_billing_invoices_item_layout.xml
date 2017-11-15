@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:padding="@dimen/dp_5"
+    android:gravity="center">
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feb 2017"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:textSize="@dimen/sp_12"
+        android:layout_weight="1"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$398"
+        android:textColor="@color/black_color"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="@dimen/sp_12"
+        android:layout_weight="0"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Partially Paid"
+        android:textColor="@color/red"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="@dimen/sp_12"
+        android:layout_weight="1"/>
+
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medicitadocter">
+
+    <application
+        android:name=".base.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        //Spalsh Screen
+        <activity
+            android:name=".common.splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        //Select User for Login
+        <activity
+            android:name=".common.login.LoginSelectUserTypeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+
+        //Base Activity with ActionBar for upcoming Fragments till Dashboard
+        <activity
+            android:name=".common.login.LoginJoinNowBaseActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+
+        //Doctor Side DashboardActivity
+        <activity
+            android:name=".doctor.activity.DoctorDashboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+
+        //Patient Side DashboardActivity
+        <activity
+            android:name=".patient.activity.PatientDashboardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+
+        <!--<activity-->
+            <!--android:name=".patient.activity.BlogListActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity-->
+            <!--android:name=".patient.activity.BlogDetailActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity-->
+            <!--android:name=".patient.activity.BookedAppointmentActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity-->
+            <!--android:name=".patient.activity.AppointmentHistoryListActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:theme="@style/AppTheme"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.PatientSearchActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.PSettingActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.PatientsPasswordActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.NotificationSettingsActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.DemographicInfoActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.AuthorizationsActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.ProfileSettingPatientActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.EditProfileOnline"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.EditProfileActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyHealthActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.LetsGoActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyHealthVisitActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyHealthSymptomsActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyHealthAllergiesActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyHealthPostConditionsActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyHealthFamilyHistoryActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyHealthHospitalizationsActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyHealthSocialHistoryActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyHealthTestActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.AddPharmacyActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.PharmacyResultActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.BookYouAppointmentActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.BookYouAppointmentAddPatientActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.BookYouAppointmentMaritalStatusActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.BookYouAppointmentVisitActivityActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.FindDoctorActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.PatientUserprofileActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.CheckBookingAvailabilityActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".patient.activity.MyMessageActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+        <!--<activity android:name=".doctor.activity.PatientsListActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateAlwaysHidden"/>-->
+
+    </application>
+
+</manifest>

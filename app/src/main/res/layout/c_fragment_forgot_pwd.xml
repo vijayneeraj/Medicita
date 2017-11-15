@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/main_bg_img"
+              android:orientation="vertical"
+              android:padding="@dimen/dp_20"
+              tools:context=".common.singandjoin.ForgetPasswordFragment">
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvForgotPwdMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/forgot_pwd_msg"
+        android:textColor="@color/gray_txt"
+        android:textSize="@dimen/sp_12"
+        app:customFont="@string/font_regular"/>
+
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvEmailTxtFP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="@string/email"
+        android:textColor="@color/violet_blue"
+        android:textSize="@dimen/sp_14"
+        app:customFont="@string/font_regular"/>
+
+    <com.medicitadocter.custom.CustomEditText
+        android:id="@+id/etEmailFP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_5"
+        android:background="@drawable/edit_txt_draw"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/dp_10"
+        android:singleLine="true"
+        android:textColor="@color/gray_txt"
+        android:textColorHint="@color/light_gray"
+        android:textSize="@dimen/sp_16"
+        app:customFont="@string/font_light"/>
+
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvSubmitBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_45"
+        android:background="@drawable/button_yellow_color"
+        android:gravity="center"
+        android:padding="@dimen/dp_10"
+        android:text="@string/submit"
+        android:textAllCaps="true"
+        android:textColor="@color/gray_txt"
+        android:textSize="@dimen/sp_18"
+        app:customFont="@string/font_regular"/>
+
+
+</LinearLayout>

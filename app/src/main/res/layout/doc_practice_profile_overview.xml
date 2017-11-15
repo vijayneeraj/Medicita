@@ -1,0 +1,72 @@
+<LinearLayout
+    android:id="@+id/llOverviewSubLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_10"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practice Name"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14" />
+
+    <com.medicitadocter.custom.CustomEditText
+        android:id="@+id/etContactPersonOverview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="James Jordon"
+        android:textColor="@color/black_color"
+        android:gravity="start|center"
+        android:maxLines="1"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_18"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/rounded_corner_light_gray"/>
+
+
+        <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practice Description"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_20"/>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(leave blank, if none) (methods and philosophies, or other points of distinction)"
+            android:textColor="@color/darkness_gray"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14" />
+
+
+    <com.medicitadocter.custom.CustomEditText
+        android:id="@+id/customTextView4"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="start"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/rounded_corner_light_gray"
+        android:gravity="start"
+        android:maxLines="5"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/dp_5"
+        android:text=" "
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_18" />
+
+
+</LinearLayout>

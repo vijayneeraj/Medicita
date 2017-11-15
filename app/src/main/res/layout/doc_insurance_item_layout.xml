@@ -1,0 +1,436 @@
+<LinearLayout
+    android:id="@+id/llAddMedicationSubLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:background="@color/light_bleed_blue"
+        android:orientation="vertical">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What plans are you in network for ?"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_5" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check the boxes for the carriers you are in network for and then select the relevent plans."
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1199 SEIU"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20/20 Eyecare Plan"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AARP"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_select"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absolute Total Care"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+        <include layout="@layout/doc_insurance_item_network_layout"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Access Medicare (NY)"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accountable Health Plan of Ohio"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACE"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advantage Health"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advantage MD"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advantica"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/dp_14"
+        android:paddingRight="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@mipmap/check_unselect"/>
+
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Advantist Health"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="@dimen/sp_12"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="0"/>
+
+    </LinearLayout>
+
+</LinearLayout>

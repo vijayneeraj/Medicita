@@ -1,0 +1,537 @@
+<LinearLayout
+    android:id="@+id/llOfficeLocationsSubLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_10"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:layout_gravity="center"
+            android:background="@mipmap/up"
+            android:layout_marginRight="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Name"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:layout_gravity="center"
+            android:background="@mipmap/tick"
+            android:layout_marginLeft="@dimen/dp_10"/>
+    </LinearLayout>
+
+    <com.medicitadocter.custom.CustomEditText
+        android:id="@+id/etLocation1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/rounded_corner_light_gray"
+        android:gravity="start|center"
+        android:maxLines="1"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/dp_5"
+        android:text="James Jordon"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_18" />
+
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email for Appointment Notifications"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Not visible to the public)"
+        android:textColor="@color/darkness_gray"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14" />
+
+
+    <com.medicitadocter.custom.CustomEditText
+        android:id="@+id/etEmail1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" "
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:maxLines="1"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_18"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/rounded_corner_light_gray"/>
+
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add more email addresses"
+        android:textColor="@color/colorPrimary"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8880 Royal Palm Boulevard Suite 100 Coral Springs, FL 33065"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_12"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Want to delete this location ?"
+        android:textColor="@color/bleed_blue"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_20">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_weight="2" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ext"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1.5" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fax"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:textSize="@dimen/sp_14"
+            android:layout_weight="1.5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <com.medicitadocter.custom.CustomEditText
+            android:id="@+id/etPhone1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_weight="2"
+            android:background="@drawable/rounded_corner_light_gray"
+            android:gravity="start"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:padding="@dimen/dp_10"
+            android:text="8890153344"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+        <com.medicitadocter.custom.CustomEditText
+            android:id="@+id/etExt1"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="wrap_content"
+            android:text="05644"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:maxWidth="@dimen/dp_70"
+            android:background="@drawable/rounded_corner_light_gray"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14"
+            android:padding="@dimen/dp_10"
+            android:layout_weight="1.5" />
+
+        <com.medicitadocter.custom.CustomEditText
+            android:id="@+id/etFax1"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="wrap_content"
+            android:text="321001"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:maxWidth="@dimen/dp_70"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:background="@drawable/rounded_corner_light_gray"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:padding="@dimen/dp_10"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14"
+            android:layout_weight="1.5" />
+
+    </LinearLayout>
+
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of Contact Person"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Not visible to the public)"
+        android:textColor="@color/darkness_gray"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14" />
+
+
+    <com.medicitadocter.custom.CustomEditText
+        android:id="@+id/etContactName2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Chris Colton / Dr. Jurado"
+        android:textColor="@color/black_color"
+        android:gravity="start|center"
+        android:maxLines="1"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_16"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/rounded_corner_light_gray"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_20"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:layout_gravity="center"
+            android:background="@mipmap/up"
+            android:layout_marginRight="@dimen/dp_10"/>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location Name"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:layout_gravity="center"
+            android:background="@mipmap/tick"
+            android:layout_marginLeft="@dimen/dp_10"/>
+    </LinearLayout>
+
+    <com.medicitadocter.custom.CustomEditText
+        android:id="@+id/etLocation2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:maxLines="1"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_16"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/rounded_corner_light_gray"/>
+
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email for Appointment Notifications"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Not visible to the public)"
+        android:textColor="@color/darkness_gray"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14" />
+
+
+    <com.medicitadocter.custom.CustomEditText
+        android:id="@+id/etEmail2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=" "
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:maxLines="1"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_18"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/rounded_corner_light_gray"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add more email addresses"
+        android:textColor="@color/colorPrimary"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8880 Royal Palm Boulevard Suite 100 Coral Springs, FL 33065"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_12"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Want to delete this location ?"
+        android:textColor="@color/bleed_blue"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_20">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_weight="2" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ext"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_weight="1.5" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fax"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_gravity="start"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:textSize="@dimen/sp_14"
+            android:layout_weight="1.5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <com.medicitadocter.custom.CustomEditText
+            android:id="@+id/etPhone2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_weight="2"
+            android:background="@drawable/rounded_corner_light_gray"
+            android:gravity="start"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:padding="@dimen/dp_10"
+            android:text="8890153344"
+            android:textColor="@color/black_color"
+            android:textSize="@dimen/sp_14" />
+
+        <com.medicitadocter.custom.CustomEditText
+            android:id="@+id/etExt2"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="wrap_content"
+            android:text="05644"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:maxWidth="@dimen/dp_70"
+            android:background="@drawable/rounded_corner_light_gray"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14"
+            android:padding="@dimen/dp_10"
+            android:layout_weight="1.5" />
+
+        <com.medicitadocter.custom.CustomEditText
+            android:id="@+id/etFax2"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="wrap_content"
+            android:text="321001"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:maxWidth="@dimen/dp_70"
+            android:textColor="@color/black_color"
+            android:gravity="start"
+            android:background="@drawable/rounded_corner_light_gray"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:padding="@dimen/dp_10"
+            android:layout_gravity="start"
+            android:textSize="@dimen/sp_14"
+            android:layout_weight="1.5" />
+
+    </LinearLayout>
+
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name of Contact Person"
+        android:textColor="@color/black_color"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Not visible to the public)"
+        android:textColor="@color/darkness_gray"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_14" />
+
+
+    <com.medicitadocter.custom.CustomEditText
+        android:id="@+id/etConatctPerson"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Chris Colton / Dr. Jurado"
+        android:textColor="@color/black_color"
+        android:gravity="start|center"
+        android:maxLines="1"
+        android:layout_gravity="start"
+        android:textSize="@dimen/sp_16"
+        android:paddingLeft="8dp"
+        android:paddingRight="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@drawable/rounded_corner_light_gray"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvOfficeLocationsSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="SUBMIT"
+        android:background="@color/yellow"
+        android:textColor="@color/black_color"
+        android:gravity="center"
+        app:textAllCaps="true"
+        android:layout_gravity="center"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_5"/>
+
+</LinearLayout>

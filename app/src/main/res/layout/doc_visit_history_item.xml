@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/dp_5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ivHistoryProfilePic"
+                android:layout_width="@dimen/dp_70"
+                android:layout_height="@dimen/dp_70"
+                android:scaleY="1"
+                android:scaleX="1"
+                android:background="@mipmap/user_circle" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/user"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/ivHistoryProfilePic"
+                android:layout_alignEnd="@+id/ivHistoryProfilePic" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_20"
+            android:orientation="vertical">
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daniel Nejat"
+                android:textSize="@dimen/sp_14"
+                android:textColor="@color/black_color"
+                app:customFont="@string/font_regular"
+                android:layout_marginTop="@dimen/dp_5"/>
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="(9001)-589-896"
+                android:textColor="@color/black_color"
+                app:customFont="@string/font_regular"
+                android:textSize="@dimen/sp_10"/>
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="daniel.nejat@gmail.com"
+                app:customFont="@string/font_regular"
+                android:textColor="@color/bleed_blue"
+                android:textSize="@dimen/sp_10"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:scaleX="0.9"
+                    android:scaleY="0.9"
+                    android:layout_marginTop="@dimen/dp_1"
+                    android:background="@mipmap/male"/>
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="Male, 35 Years"
+                android:gravity="center"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sp_10"
+                app:customFont="@string/font_regular"
+                android:layout_marginLeft="@dimen/dp_5"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="I think i have pink eye"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sp_10"
+                app:customFont="@string/font_regular"
+                android:layout_marginBottom="@dimen/dp_2"/>
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="@dimen/dp_2"
+                android:background="@mipmap/edit"
+                android:layout_marginLeft="@dimen/dp_10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10">
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="Apr 5th, 2017 by"
+                android:textColor="@color/darkness_gray"
+                app:customFont="@string/font_regular"
+                android:textSize="@dimen/sp_10" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_5"
+                android:text="Dr. Anita Agarwal, DMD."
+                android:textColor="@color/bleed_blue"
+                android:layout_marginLeft="@dimen/dp_5"
+                app:customFont="@string/font_regular"
+                android:textSize="@dimen/sp_12" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/llDollar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivDollar"
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:background="@mipmap/icon_1" />
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black_color" />
+
+        <LinearLayout
+            android:id="@+id/llRx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="15dp"
+                android:background="@mipmap/icon_2" />
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black_color" />
+
+        <LinearLayout
+            android:id="@+id/llNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="15dp"
+                android:background="@mipmap/icon_3" />
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/black_color" />
+
+        <LinearLayout
+            android:id="@+id/llPrint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivPrint"
+                android:layout_width="14dp"
+                android:layout_height="15dp"
+                android:background="@mipmap/icon_4" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/darkness_gray"/>
+</LinearLayout>

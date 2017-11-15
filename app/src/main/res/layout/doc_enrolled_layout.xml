@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_margin="@dimen/dp_40"
+              android:layout_gravity="center"
+              android:gravity="center"
+              android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:background="@android:color/transparent"
+        android:layout_weight="0">
+
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:background="@mipmap/close"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/dp_5" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounted_corner_light_gray_solid_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:layout_marginRight="@dimen/dp_15">
+
+
+            <EditText
+                android:id="@+id/etSearch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/rounded_corner_light_gray"
+                android:hint="Search"
+                android:textColor="@color/black_color"
+                android:textColorHint="@color/darkness_gray"
+                android:textSize="@dimen/sp_15"
+                android:paddingLeft="@dimen/sp_10"/>
+
+            <LinearLayout
+                android:id="@+id/llStatusSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/rounded_corner_light_gray">
+
+                <Spinner
+                    android:id="@+id/spStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                </Spinner>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/arrow" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/llActivitySpinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/rounded_corner_light_gray">
+
+                <Spinner
+                    android:id="@+id/spActivity"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                </Spinner>
+
+                <LinearLayout
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/arrow" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:id="@+id/tvSearch"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@color/yellow"
+                android:text="Search"
+                android:gravity="center"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sp_15" />
+
+            <com.medicitadocter.custom.CustomTextView
+                android:id="@+id/tvClear"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/rounded_corner_bleed_blue"
+                android:text="Clear"
+                android:gravity="center"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sp_15" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

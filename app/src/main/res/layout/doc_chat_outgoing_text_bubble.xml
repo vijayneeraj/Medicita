@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_5"
+    android:layout_marginLeft="@dimen/dp_20">
+
+    <ImageView
+        android:id="@+id/ivChatBubbleProfilePic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@mipmap/user_circle"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:layout_alignParentRight="true"
+        android:layout_alignRight="@+id/tvChatBubbleIncoming"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvChatBubbleIncoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dp_50"
+        android:background="@drawable/chat_bubble_incoming_primarydark"
+        android:gravity="start|center"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_14"
+        android:text="Do you see this Do you see this Do you see this Do you see this Do you see this Do you see this Do you see this Do you see this Do you see this Do you see this"
+        android:paddingRight="@dimen/dp_20"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_5"
+        android:paddingBottom="@dimen/dp_5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="46dp" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvChatBubbleTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:layout_gravity="center"
+        android:textColor="@color/darkness_gray"
+        android:textSize="@dimen/sp_10"
+        android:text="Gray Gower - Today at 10:59 AM"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/tvChatBubbleIncoming"
+        android:layout_alignRight="@+id/tvChatBubbleIncoming"
+        android:layout_alignEnd="@+id/tvChatBubbleIncoming" />
+
+</RelativeLayout>

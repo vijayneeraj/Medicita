@@ -1,0 +1,204 @@
+<LinearLayout android:id="@+id/ivAddMedicationSubLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_10"
+    android:layout_marginBottom="@dimen/dp_10"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:layout_marginTop="@dimen/dp_5"
+        android:text="Reason Information"
+        app:customFont="@string/font_bold"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_14" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        app:customFont="@string/font_bold"
+        android:text="Why are you booking this appointment"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:text="Annual Pap Smear/GYN Exam"
+        app:customFont="@string/font_regular"
+        android:textColor="@color/darkness_gray"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        app:customFont="@string/font_bold"
+        android:text="Do you have any other concerns you would like to address"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:text="No Response"
+        android:textColor="@color/colorPrimary"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        app:customFont="@string/font_bold"
+        android:text="How is your general health?"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:text="No Response"
+        android:textColor="@color/colorPrimary"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="Symptoms"
+        app:customFont="@string/font_bold"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_14" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        app:customFont="@string/font_bold"
+        android:text="Do you currently have any of these condition?"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:text="No Response"
+        android:textColor="@color/colorPrimary"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:layout_marginTop="@dimen/dp_20"
+        app:customFont="@string/font_bold"
+        android:text="Allergies &amp; Medications"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_14" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        app:customFont="@string/font_bold"
+        android:text="Are you allergic to any of the following?"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:text="No Response"
+        android:textColor="@color/colorPrimary"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        app:customFont="@string/font_bold"
+        android:text="Do you have any allergic?"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:text="No Response"
+        android:textColor="@color/colorPrimary"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:layout_marginTop="@dimen/dp_10"
+        app:customFont="@string/font_bold"
+        android:text="What Mediciations are you."
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_12" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="start|center"
+        android:paddingLeft="@dimen/dp_5"
+        android:text="No Response"
+        android:textColor="@color/colorPrimary"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_12" />
+
+</LinearLayout>

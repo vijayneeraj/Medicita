@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_weight="0"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/arrow_back"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Doctor &amp; Staff"
+            android:textColor="@color/white"
+            app:customFont="@string/font_regular"
+            android:textSize="@dimen/sp_18" />
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_15"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivDot"
+                android:layout_gravity="end|center"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/dot" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/dp_15"
+            android:layout_marginBottom="@dimen/dp_15">
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:text="We are working on your widget"
+                android:textColor="@color/black_color"
+                app:customFont="@string/font_regular"
+                android:textSize="@dimen/sp_15"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="start|center"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center"
+                    android:scaleY="1"
+                    android:scaleX="1"
+                    android:background="@mipmap/arrow_in_circle"/>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Your website address:"
+                android:textColor="@color/black_color"
+                app:customFont="@string/font_regular"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:textSize="@dimen/sp_14" />
+
+            </LinearLayout>
+
+            <com.medicitadocter.custom.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:background="@drawable/rounded_corner_light_gray"
+                android:text=""
+                android:hint="ex: http://www.medicta.com"
+                android:textColorHint="@color/darkness_gray"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sp_14"
+                android:padding="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"/>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:text="We are working on your widget"
+                android:textColor="@color/black_color"
+                app:customFont="@string/font_regular"
+                android:textSize="@dimen/sp_15"
+                android:layout_marginTop="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="start"
+                        android:layout_weight="0"
+                        android:checked="true"
+                        android:gravity="start|center"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:text="Self"
+                        android:textSize="@dimen/sp_16" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:layout_gravity="start"
+                        android:layout_weight="0"
+                        android:gravity="start|center"
+                        android:scaleX="0.7"
+                        android:scaleY="0.7"
+                        android:text="Other Vendor"
+                        android:textSize="@dimen/sp_16" />
+
+                </LinearLayout>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:text="Where do you go to login ?"
+                android:textColor="@color/black_color"
+                app:customFont="@string/font_regular"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_20"/>
+
+
+            <com.medicitadocter.custom.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:background="@drawable/rounded_corner_light_gray"
+                android:text=""
+                android:hint="ex: http://www.medicta.com/login"
+                android:textColorHint="@color/darkness_gray"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sp_14"
+                android:padding="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"/>
+
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:text="Your Username (for your website):"
+                app:customFont="@string/font_regular"
+                android:textColor="@color/black_color"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_20"/>
+
+
+            <com.medicitadocter.custom.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:background="@drawable/rounded_corner_light_gray"
+                android:text=""
+                android:hint="ublasini@gmail.com"
+                android:textColorHint="@color/darkness_gray"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sp_14"
+                android:padding="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"/>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center"
+                android:text="Your Password (for your website):"
+                android:textColor="@color/black_color"
+                app:customFont="@string/font_regular"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:textSize="@dimen/sp_14"
+                android:layout_marginTop="@dimen/dp_20"/>
+
+
+            <com.medicitadocter.custom.CustomEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="start|center"
+                android:background="@drawable/rounded_corner_light_gray"
+                android:text=""
+                android:inputType="textPassword"
+                android:hint="********"
+                android:textColorHint="@color/darkness_gray"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sp_14"
+                android:padding="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"/>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:id="@+id/tvSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@color/yellow"
+                app:customFont="@string/font_regular"
+                android:text="SUBMIT"
+                app:textAllCaps="true"
+                android:textColor="@color/black_color"
+                android:textSize="@dimen/sp_14"
+                android:padding="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"/>
+
+            <com.medicitadocter.custom.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Let us buy you a URL"
+                android:textColor="@color/bleed_blue"
+                app:customFont="@string/font_regular"
+                android:textSize="@dimen/sp_15"
+                android:layout_marginTop="@dimen/dp_30"
+                android:layout_marginLeft="@dimen/dp_15"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginBottom="@dimen/dp_30"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

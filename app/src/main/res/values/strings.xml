@@ -1,0 +1,446 @@
+<resources>
+
+    <string name="app_name">"Medicita"</string>
+
+
+    <!--////////////////////////////Font family/////////////////////-->
+    <string name="font_bold">roboto_bold.ttf</string>
+    <string name="font_light">roboto_light.ttf</string>
+    <string name="font_regular">roboto_regular.ttf</string>
+    <string name="font_thin">roboto_thin.ttf</string>
+
+
+    <!--//////////////////// Login Screen Activity/////////////////////-->
+    <string name="login_as_patient">LOGIN AS PATIENT</string>
+    <string name="login_as_provider">LOGIN AS PROVIDER</string>
+
+
+    <!--/////////////////// Login Fragment //////////////////////-->
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="keep_me_signed_in">Keep me signed in.</string>
+    <string name="sing_in">SIGN IN</string>
+
+
+    <!--/////////////////// Forgot Password Fragment //////////////-->
+    <string name="forgot_pwd_msg">We\'ll email a link to make a brand new password RIP old password.
+        You had a good run.
+    </string>
+    <string name="email">Email</string>
+    <string name="submit">SUBMIT</string>
+
+
+    <!--//////////////////// Join Now Register Fragment ///////////////// -->
+    <string name="register_group">Register Group</string>
+    <string name="register_individual">Register individual</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="create_a_password">Create a password</string>
+    <string name="name">Name</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="mm">MM</string>
+    <string name="dd">DD</string>
+    <string name="yyyy">YYYY</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sex">Sex</string>
+    <string name="i_have_read_accept_medicita_s">I have read accept Medicita\'s</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="and">and</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="join_now">Join Now</string>
+    <string name="date_">Date</string>
+
+    <!--//_//////////////////////// Join Now Title Message Layout-->
+    <string name="i_m_a_new_patient">I\'m a new patient!</string>
+    <string name="sign_up_join_now_msg">
+        Sign up for a Medicita account and book\nan appointment from the comfort\nof your home
+        screen
+    </string>
+
+
+    <!--////////////////////// Patient Navigation Items Array ////////////////////-->
+    <string-array name="doctor_navi_item">
+        <item>DashBoard</item>
+        <item>Waiting Room</item>
+        <item>Visit History</item>
+        <item>Patients</item>
+        <item>Blog</item>
+        <item>FAQ</item>
+        <item>Contact Us</item>
+    </string-array>
+
+
+    <!--////////////////////// Patient Navigation Items Array ////////////////////-->
+    <string-array name="patient_navi_item2">
+        <item>DashBoard</item>
+        <item>Medical Team</item>
+        <item>My Message</item>
+        <item>Consult Now</item>
+        <item>Wellness Reminder</item>
+        <item>Appointment History</item>
+        <item>My Health</item>
+        <item>Settings</item>
+        <item>Notifications</item>
+        <item>Past Appointment</item>
+        <item>Blog</item>
+    </string-array>
+
+    <string-array name="patient_navi_item">
+        <item>DashBoard</item>
+        <item>My Messages</item>
+        <item>Settings</item>
+        <item>Notifications</item>
+        <item>Blog</item>
+        <item>Logout</item>
+    </string-array>
+
+
+    <!--///////////////////// Patient dashboard ////////////////////-->
+    <string name="notification">Notification</string>
+    <string name="massage">Massage</string>
+
+    <!--/////////////////////// Dashboard Doctor menu ////////////-->
+    <string name="doctor_dashboard">Dashboard</string>
+    <string name="doctor_waiting_room">Waiting Room</string>
+    <string name="doctor_patient">Patient</string>
+    <string name="doctor_visit_history">Visit History</string>
+    <string name="doctor_Scheduling">Scheduling</string>
+
+    <!--/////////////////////// Dashboard patients menu ////////////-->
+    <string name="petient_settings">Settings</string>
+    <string name="petient_massage">My Massage</string>
+    <string name="petient_consult">Counsult Now</string>
+    <string name="petient_remainder">Wellness Reminder</string>
+    <string name="petient_appointment">Past Appointment and Reviwes</string>
+    <string name="petient_health">My Health</string>
+
+
+    <!--////////////// patients find doctor ///////////////////////-->
+    <string name="feeling_meh">Feeling meh?</string>
+    <string name="find_doctor">Find a Doctor.</string>
+    <string name="doctor_name">Doctor\'s Name\\Symptoms\\Condition</string>
+    <string name="specialty">Specialty</string>
+    <string name="type_appoinment">Type of Appoinment</string>
+    <string name="doctor_location">Location</string>
+    <string name="insurance">Insurance</string>
+    <string name="search">Search</string>
+
+
+    <!--//////////////////////// doctor mediaca teeam //////////////////////-->
+    <string name="madicalteeam">Madical Team</string>
+    <string name="book_again">Book Again</string>
+
+
+    <!--/////////////////// doctor Upcoming appointment ////////////////-->
+    <string name="upcoming_appointment">Upcoming Appointment</string>
+    <string name="sharemy_onlineprofile">Share My Online Profile</string>
+    <string name="nothanx">No Thanks</string>
+    <string name="Add_to_Calendar">Add to Calendar</string>
+    <string name="print_reminder">Print Reminder</string>
+    <string name="reshedule">Reshedule</string>
+    <string name="cancle">Cancel</string>
+
+
+    <!--/////////////////// Patients Help Fragments///////////////////////-->
+    <string name="insurancecard">Insurance Card</string>
+    <string name="settings">Settings</string>
+    <string name="contacts">Contacts</string>
+    <string name="terms_policy">Terms of Use</string>
+    <string name="privecy_policy">Privecy Policy</string>
+    <string name="psignout">Signout</string>
+
+
+    <!--/////////////// Patients Settings Fragments //////////////////////////-->
+    <string name="profile">Profile</string>
+    <string name="passwords">Password</string>
+    <string name="notificationsettins">Notification Settings</string>
+    <string name="demographicinfo">Demographic Info</string>
+    <string name="authorization">Authorizations</string>
+    <string name="telimedicine_billinginformation">Telemedicine Billing Information</string>
+
+
+    <!--/////////////// Patients Settings/->password Fragments ///////////-->
+    <string name="setting">Settings</string>
+    <string name="current_pass">Entger your current password</string>
+    <string name="choose_pass">Choose a password</string>
+    <string name="confirm_pass">Confirm your password</string>
+    <string name="btn_save">Save</string>
+
+
+    <string name="appointment_2">Appointment(2)</string>
+    <string name="medical_team">Medical Team</string>
+    <string name="past_appointments">Past Appointments</string>
+    <string name="title_activity_patient_search">PatientSearchActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!--*************Demographic Info*******************-->
+    <string name="race_select">Race select one or more</string>
+    <string name="ethnicity">Ethnicity</string>
+    <string name="preferred_languge">Preferred Language</string>
+    <string name="medicita_is_currently">Medicita is currently available in English and Espanol</string>
+    <string name="zip">Zip</string>
+    <string name="optional">(Optional)</string>
+    <string name="hispanic_latino">Hispanic or Latine</string>
+    <string name="hispanic_latino_not">Not Hispanic or Latine</string>
+    <string name="decline_answer">Decline to Answer</string>
+
+    <!--******************Authorizations****************-->
+    <string name="hipp_authorization">Hipaa Authorization Setting</string>
+    <string name="choosing_not">Choosing not to agree to Midicita HIPAA Authorization may result in not having access to all
+    of Midicita services.</string>
+    <string name="user_name">John Smoith(ME) -</string>
+    <string name="not_authorized">Not Authorized</string>
+    <string name="i_have_read">I have read and accept Medicita\'s </string>
+
+    <!--*********************settint profile*******-->
+    <string name="edit_profilt">Edit Profile</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="family_member">Family Member</string>
+    <string name="emergency_cintact">Emergency Contact</string>
+    <string name="providers">Providers</string>
+
+
+    <!--**************Edit Profile***************-->
+    <string name="please_cell">Uma Blasini please - Please call us at(855)1234555 to change your name.</string>
+    <string name="call">Call</string>
+    <string name="home">Home</string>
+    <string name="work">Work</string>
+    <string name="prefered_number">Preferred Number</string>
+    <string name="address">Address</string>
+    <string name="street_address">Street Address</string>
+    <string name="apt_str_unit">Apt. Ste. Unit#</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="dob">Date of Birth</string>
+    <string name="next">Next</string>
+
+    <!--********************Contact Info************-->
+    <string name="address1">Address line 1</string>
+    <string name="address2">Address line 2</string>
+    <string name="phone">Phone</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="phone_number">Phone Number</string>
+
+    <!--*************Family Member**************-->
+    <string name="emergency_contact_name">Emergency Contact Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="relationship">Relationship to Patient</string>
+    <string name="emergency_contact_phone">Emergency Contact Phone</string>
+
+    <!--******************Emergency Contact*****************-->
+    <string name="primary_care_physician">Primary Care Physician</string>
+    <string name="primary_care_physician_name">Primary Care Physician name</string>
+    <string name="number">Number</string>
+    <string name="referring_doctor">Referring Doctor</string>
+    <string name="referring_doctor_name">Referring Doctor Name</string>
+    <string name="pharmacy_information">Pharmacy Information</string>
+
+    <!--*****************Providers******************-->
+    <string name="who_is_responsible">Whi is responsible for payment?</string>
+    <string name="i_am">I am</string>
+    <string name="someone_else">Someone else is</string>
+
+    <!--**************Insurance*******************-->
+    <string name="are_you_covered">Are you covered by insurance?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="primary_insurace">Primary Insurance Policy Information?</string>
+    <string name="who_is_primary_insurace">Who is primary insurance Policy holder?</string>
+    <string name="insuance_carrier">Insurance Carrier</string>
+    <string name="insurance_plan">Insurance Plan</string>
+    <string name="insurance_id">Insurance ID / Policy #</string>
+    <string name="group">Group #</string>
+    <string name="are_you_covered_by">Are you covered by insurance</string>
+
+    <!--*************Edit profilr online************-->
+    <string name="edit_profile_online">Edit Profile Online</string>
+    <string name="no_morw_paper">No more paper forms!</string>
+    <string name="check_in_inline">Check in online and information will be send directly to Dr. Jurado.</string>
+    <string name="i_want_medicita">I went Medicita to help me mamage my personal my personal health informatio. </string>
+    <string name="agree">Agree</string>
+
+    <!--***************Edit Profile**************-->
+    <string name="review_your">Review Your Information</string>
+    <string name="is_everything">Is everything here correct?. If so let\'s move on to the next section!</string>
+    <string name="contine">Continue</string>
+    <string name="register">Register</string>
+    <string name="patient_info">Patient Info</string>
+    <string name="marital_status">Marital Status</string>
+    <string name="employment">Employment</string>
+    <string name="are_you_employed">Are you employed?</string>
+    <string name="occupation">Occupation</string>
+    <string name="empoyer_name">Employer Name</string>
+    <string name="empoyer_addess">Employer Address</string>
+    <string name="empoyer_phone">Employer Phone</string>
+
+    <!--*************my health**********-->
+    <string name="my_health">My Health</string>
+    <string name="medicl">Medical</string>
+    <string name="finish">Finish</string>
+    <string name="great">Great!</string>
+    <string name="nowhas_some">Now Dr. Jurado has same questions about your medical background</string>
+    <string name="let_go">Let\'s go!</string>
+    <string name="add_pharmacy">Add Pharmacy</string>
+
+    <!--***************lets go****************-->
+    <string name="reason_information">Reason Information</string>
+    <string name="why_are_ouy_booking">Why are you booking this appointment</string>
+    <string name="annua_pap">annual Pap Smear / GYN Exam</string>
+    <string name="do_you_have_any">Do you have any other concerns you would like to address</string>
+    <string name="no_response">No Response</string>
+    <string name="how_is_you_general">How is you general health?</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="do_you_currently_have">Do you currently have any of these condition?</string>
+    <string name="allergies">Allergies &amp; Medications</string>
+    <string name="are_you_allergies">Are you allergies to any of the following?</string>
+    <string name="do_you_have_allergic">Do you have any allergic?</string>
+    <string name="what_medication">What medications are you</string>
+
+    <string name="reason_for_visit">Reason for Visit</string>
+    <string name="excellent">Excellent</string>
+    <string name="good">Good</string>
+    <string name="fair">Fair</string>
+    <string name="poor">Poor</string>
+    <string name="do_you_currently">Do you currently have any these conditioned?</string>
+    <string name="rheumatic_fever">Rheumatic Fever</string>
+    <string name="none_of_the_above">None of the Above</string>
+    <string name="not_sure">Not Sure</string>
+
+    <string name="adhesive_type">Adhesive Tape</string>
+    <string name="antabiotics">Antibiotics</string>
+    <string name="aspirin">aspirin</string>
+    <string name="barbiturates">Barbiturates (Sleeping Pills)</string>
+    <string name="codeine">Codeine</string>
+    <string name="lodine">Lorine</string>
+    <string name="reaction">Reaction</string>
+    <string name="aids">Aids/HIV</string>
+    <string name="arthritis">Arthritis</string>
+    <string name="what_medications_are">What medications are you currently taking?</string>
+    <string name="post_conditions">Post Conditions</string>
+    <string name="family_history">Family History</string>
+    <string name="has_your_family">Has your family ever had any of the following conditions</string>
+    <string name="hospitalizations">Hospitalizations &amp; Surgeries</string>
+    <string name="have_you_ever">Have you ever been hospitalized</string>
+    <string name="have_you_ever_had">Have you ever had any of the following procedures?</string>
+    <string name="blood_transfusion">Blood Transfusion</string>
+    <string name="breast_surgery">Breast Surgery</string>
+    <string name="colposcopy">Colposcopy</string>
+    <string name="social_history">Social History</string>
+    <string name="are_you_sexally">Are you sexually active?</string>
+    <string name="do_you_drink">Do you drink alcohol</string>
+    <string name="do_you_smoke">Do you smoke?</string>
+    <string name="do_you_reccreational">Do you recreational drugs</string>
+    <string name="how_many">How many caffeinated drinks do have per day?</string>
+    <string name="has_antone_in">Has anyone in you home ever physically or verbally hurt you?</string>
+    <string name="do_you_exericse">Do you exercise?</string>
+    <string name="reason">Reason</string>
+    <string name="tests">TestS</string>
+
+    <!--****************Add Pharmacy**************-->
+    <string name="add_you_pharmay">Add, your Pharmacy!</string>
+    <string name="where_would_you">Where would you like to receive prescriptions? Find a pharmacy.</string>
+    <string name="search_by_city">Search by city and state</string>
+    <string name="or_zip_code">...or by zip code</string>
+    <string name="pharmay_name">Pharmacy Name</string>
+    <string name="phamacy_search_result">Pharmacy Search Result</string>
+    <string name="select">Select</string>
+
+    <!--**************Book You Appintment***************-->
+    <string name="book_you_appointment">Book You Appointment</string>
+    <string name="will_you_use">Will you use insurance?</string>
+    <string name="have_you_visited">Have you visited this doctor before?</string>
+    <string name="i_am_new_patient">I\'am a new Patient</string>
+    <string name="i_we_seen">I\'ve seen this doctor before</string>
+    <string name="appointment_type">Appointment Type</string>
+    <string name="office_consult">Office Consult</string>
+    <string name="apppointment_time">Appointment Time</string>
+    <string name="who_will_be">Who will be seeing the doctor?</string>
+    <string name="uma_blasini">Uma Blasini (Me)</string>
+    <string name="add_new_patient">Add a new patient</string>
+
+
+    <string name="single">Single</string>
+    <string name="married">Married</string>
+    <string name="widowed">Widowed</string>
+    <string name="divorced">Divorced</string>
+    <string name="separated">Separated</string>
+    <string name="do_you_have">Do you have any other concerns you would like to address?</string>
+    <string name="how_is_general">How is your general health?</string>
+    <string name="what_is_reason">what is the reason for your appointment</string>
+    <string name="ex_sore">(ex. Sore throat)</string>
+    <string name="add_photo">Add a photo</string>
+    <string name="helpful_for">(Helpful for rashes, cuts, etc)</string>
+    <string name="no_file_chose">No file chose</string>
+    <string name="browse">Browse</string>
+
+    <string name="check_availability">Check Availability</string>
+    <string name="book_in_appointment">Book an appointment</string>
+    <string name="next_availability">Next Availability : Tue Apr 25</string>
+    <string name="patient_reviews">Patient Reviews</string>
+    <string name="my_message">My Messages</string>
+    <string name="inbox">Inbox</string>
+    <string name="proin_ninmmy">Proin nonummy, lacus eget pulvinar lacinia, pede felis dignissim leo, vitae tristoquw magna lacus sit amet eros.
+                Nullam ornare. Praesent odio ligula, dapibus sed, tincidunt eget, dictum ac, nibh, Nam
+                quis lanuc. Nunc eleifend molestive velit. Morbi lobortis quam eu velit. Donec euismod vestibilim massa. Donec non lectis commdo lacus sit amet nulla.
+    \n\n\n Cras dignissim elit et augue. Nullam nin diam.</string>
+    <string name="ea_nam_error">Ea nam error audiam, oratio nostrud pro id vulputate.</string>
+    <string name="someone_famous">Someone famous in Source Title</string>
+    <string name="oh_snap">Oh snap!</string>
+    <string name="are_you_really">Are you really form the future?</string>
+    <string name="you_can_try">You can try: \nStart engineering a time machine on this time space and back to the future. Or change the  birthday you enter to a previous date.</string>
+
+    <!---AAAAAAAAAAAAAAAAAA-->
+    <string name="for_patient">For Patients</string>
+    <string name="date">26 oct 2016</string>
+    <string name="blog">Blog</string>
+    <string name="blog_detailtext">Could skipping be the key to live longer? Recent studies have shown that restricting your daily caloric intake can add years to your life.</string>
+    <string name="show_comments">Show comments (8)</string>
+    <string name="share_my_online">Share my Online Profile (Should share My Health, Profile and Insurance)</string>
+    <string name="if_you_have_any_question">If you have any question, please contact the office of Dr. Carlos Jurado at (123) 753 2411</string>
+    <string name="appointment_booked">Appointment Booked</string>
+    <string name="viewdetails">View details</string>
+    <string name="review">Review</string>
+    <string name="appointment_history">Appointment History</string>
+    <string name="map"><u>Map</u></string>
+    <string name="comment">Comment</string>
+    <string name="write_review">Write review here...</string>
+    <string name="let_us_buy_you_a_url"> <u>Let us buy you a URL</u>. </string>
+    <string name="in_a_world_where">In a world where "dental pratices" have revolving doors and you never seen the same dentist twice, Dr. Volpicella gives personalized and consistent care.</string>
+
+    <string-array name="time_slots">
+        <item>All Days</item>
+        <item>8:00 am</item>
+        <item>8:30 am</item>
+        <item>9:00 am</item>
+        <item>9:30 am</item>
+        <item>10:00 am</item>
+        <item>10:30 am</item>
+        <item>11:00 am</item>
+        <item>11:30 am</item>
+        <item>12:00 pm</item>
+        <item>12:30 pm</item>
+        <item>1:00 pm</item>
+        <item>1:30 pm</item>
+        <item>2:00 pm</item>
+        <item>2:30 pm</item>
+        <item>3:00 pm</item>
+    </string-array>
+    
+    <string-array name="day_slots">
+        <item>04 Tha</item>
+        <item>05 Fri</item>
+        <item>06 Sat</item>
+        <item>07 Sun</item>
+        <item>08 Mon</item>
+        <item>09 Tue</item>
+        <item>10 Wed</item>
+    </string-array>
+</resources>

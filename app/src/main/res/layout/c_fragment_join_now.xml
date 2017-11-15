@@ -1,0 +1,439 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg_img"
+    tools:context=".common.singandjoin.SingInJoinNowFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/ll_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp_5"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_5"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg_blue_color"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_3">
+
+                    <com.medicitadocter.custom.CustomCheckBok
+                        android:id="@+id/cbRegisterGroupJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio_button"
+                        android:padding="@dimen/dp_5"
+                        android:text="@string/register_group"
+                        android:textColor="@color/whit_txt"
+                        android:textSize="@dimen/sp_14"
+                        app:customFont="@string/font_bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_5"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/bg_blue_color"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_3">
+
+                    <com.medicitadocter.custom.CustomCheckBok
+                        android:id="@+id/cbRegisterIndiviJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/radio_button"
+                        android:padding="@dimen/dp_5"
+                        android:text="@string/register_individual"
+                        android:textColor="@color/whit_txt"
+                        android:textSize="@dimen/sp_14"
+                        app:customFont="@string/font_bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_10"
+                android:orientation="vertical"
+                android:padding="@dimen/dp_5">
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvEmailTxtJN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:text="@string/email"
+                    android:textColor="@color/violet_blue"
+                    android:textSize="@dimen/sp_14"
+                    app:customFont="@string/font_regular" />
+
+                <com.medicitadocter.custom.CustomEditText
+                    android:id="@+id/etEmailJN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edit_txt_draw"
+                    android:hint="@string/email_address"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/dp_10"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_txt"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/sp_16"
+                    app:customFont="@string/font_light" />
+
+                <com.medicitadocter.custom.CustomEditText
+                    android:id="@+id/etConfEmailJN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edit_txt_draw"
+                    android:hint="@string/confirm_email"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/dp_10"
+                    android:singleLine="true"
+                    android:textColor="@color/gray_txt"
+                    android:textColorHint="@color/light_gray"
+                    android:textSize="@dimen/sp_16"
+                    app:customFont="@string/font_light" />
+
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvPwdTxtJN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:text="@string/create_a_password"
+                    android:textColor="@color/violet_blue"
+                    android:textSize="@dimen/sp_14"
+                    app:customFont="@string/font_regular" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edit_txt_draw"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.medicitadocter.custom.CustomEditText
+                        android:id="@+id/etPwd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:background="@null"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:padding="@dimen/dp_10"
+                        android:singleLine="true"
+                        android:textColor="@color/gray_txt"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/sp_16"
+                        app:customFont="@string/font_light" />
+
+                    <View
+                        android:layout_width="@dimen/dp_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/light_gray" />
+
+                    <com.medicitadocter.custom.CustomTextView
+                        android:id="@+id/tvShowPwd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dp_10"
+                        android:text="@string/show"
+                        android:textColor="@color/violet_blue"
+                        android:textSize="@dimen/sp_16"
+                        app:customFont="@string/font_regular" />
+
+                </LinearLayout>
+
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvNameTxtJN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:text="@string/name"
+                    android:textColor="@color/violet_blue"
+                    android:textSize="@dimen/sp_14"
+                    app:customFont="@string/font_regular" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edit_txt_draw"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.medicitadocter.custom.CustomEditText
+                        android:id="@+id/etFirstNameJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:hint="@string/first"
+                        android:inputType="text"
+                        android:padding="@dimen/dp_10"
+                        android:singleLine="true"
+                        android:textColor="@color/gray_txt"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/sp_16"
+                        app:customFont="@string/font_light" />
+
+                    <View
+                        android:layout_width="@dimen/dp_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/light_gray" />
+
+                    <com.medicitadocter.custom.CustomEditText
+                        android:id="@+id/etLastNameJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:hint="@string/last"
+                        android:inputType="text"
+                        android:padding="@dimen/dp_10"
+                        android:singleLine="true"
+                        android:textColor="@color/gray_txt"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/sp_16"
+                        app:customFont="@string/font_light" />
+
+                </LinearLayout>
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvDOBTxtJN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:text="@string/date_of_birth"
+                    android:textColor="@color/violet_blue"
+                    android:textSize="@dimen/sp_14"
+                    app:customFont="@string/font_regular" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edit_txt_draw"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.medicitadocter.custom.CustomEditText
+                        android:id="@+id/etDOBMJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:background="@null"
+                        android:hint="@string/mm"
+                        android:inputType="date"
+                        android:maxLength="2"
+                        android:padding="@dimen/dp_10"
+                        android:singleLine="true"
+                        android:textColor="@color/gray_txt"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/sp_16"
+                        app:customFont="@string/font_light" />
+
+                    <View
+                        android:layout_width="@dimen/dp_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/light_gray" />
+
+                    <com.medicitadocter.custom.CustomEditText
+                        android:id="@+id/etDOBDJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:background="@null"
+                        android:hint="@string/dd"
+                        android:inputType="datetime"
+                        android:maxLength="2"
+                        android:padding="@dimen/dp_10"
+                        android:singleLine="true"
+                        android:textColor="@color/gray_txt"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/sp_16"
+                        app:customFont="@string/font_light" />
+
+                    <View
+                        android:layout_width="@dimen/dp_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/light_gray" />
+
+                    <com.medicitadocter.custom.CustomEditText
+                        android:id="@+id/etDOBYJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:background="@null"
+                        android:hint="@string/yyyy"
+                        android:inputType="datetime"
+                        android:maxLength="4"
+                        android:padding="@dimen/dp_10"
+                        android:singleLine="true"
+                        android:textColor="@color/gray_txt"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/sp_16"
+                        app:customFont="@string/font_light" />
+
+                </LinearLayout>
+
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvSexTxtJN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:text="@string/sex"
+                    android:textColor="@color/violet_blue"
+                    android:textSize="@dimen/sp_14"
+                    app:customFont="@string/font_regular" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_5"
+                    android:background="@drawable/edit_txt_draw"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <com.medicitadocter.custom.CustomEditText
+                        android:id="@+id/etMaleJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:hint="@string/male"
+                        android:inputType="text"
+                        android:padding="@dimen/dp_10"
+                        android:singleLine="true"
+                        android:textColor="@color/gray_txt"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/sp_16"
+                        app:customFont="@string/font_light" />
+
+                    <View
+                        android:layout_width="@dimen/dp_1"
+                        android:layout_height="match_parent"
+                        android:background="@color/light_gray" />
+
+                    <com.medicitadocter.custom.CustomEditText
+                        android:id="@+id/etFemaleJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:background="@null"
+                        android:hint="@string/female"
+                        android:inputType="text"
+                        android:padding="@dimen/dp_10"
+                        android:singleLine="true"
+                        android:textColor="@color/gray_txt"
+                        android:textColorHint="@color/light_gray"
+                        android:textSize="@dimen/sp_16"
+                        app:customFont="@string/font_light" />
+
+                </LinearLayout>
+
+
+                <com.medicitadocter.custom.CustomCheckBok
+                    android:id="@+id/cbTermsFistJN"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:padding="@dimen/dp_2"
+                    android:text="@string/i_have_read_accept_medicita_s"
+                    android:textColor="@color/gray_txt"
+                    android:textSize="@dimen/sp_14" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dp_40"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:orientation="horizontal">
+
+                    <com.medicitadocter.custom.CustomTextView
+                        android:id="@+id/tvTermsLinkJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dp_2"
+                        android:text="@string/terms_of_use"
+                        android:textColor="@color/violet_blue"
+                        android:textSize="@dimen/sp_14" />
+
+                    <com.medicitadocter.custom.CustomTextView
+                        android:id="@+id/tvTermsSecJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dp_2"
+                        android:text="@string/and"
+                        android:textColor="@color/gray_txt"
+                        android:textSize="@dimen/sp_14" />
+
+                    <com.medicitadocter.custom.CustomTextView
+                        android:id="@+id/tvPrivacyPolicyLinkJN"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dp_2"
+                        android:text="@string/privacy_policy"
+                        android:textColor="@color/violet_blue"
+                        android:textSize="@dimen/sp_14" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvJoinNowJN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:gravity="center"
+            android:padding="@dimen/dp_10"
+            android:text="@string/join_now"
+            android:textAllCaps="true"
+            android:textColor="@color/gray_txt"
+            android:textSize="@dimen/sp_16"
+            app:customFont="@string/font_bold" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

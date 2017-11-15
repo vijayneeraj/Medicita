@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_weight="0"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/arrow_back"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Doctor &amp; Staff"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18" />
+
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dp_15"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivDot"
+                android:layout_gravity="end|center"
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/dot" />
+        </LinearLayout>
+    </RelativeLayout>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_20"
+        android:orientation="vertical">
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download &amp; Install Alerter"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_16"
+        android:layout_marginTop="@dimen/dp_15"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Alerter runs on your computer and notifies you of new appointments."
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_15"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_15">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/solid_circular_primary_dark"
+            android:text="1"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Install and run the Alerter by "
+            android:textColor="@color/darkness_gray"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:textSize="@dimen/sp_12" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="checking here."
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/sp_12" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_15">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/solid_circular_primary_dark"
+            android:text="2"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your login details when prompted by the Alerter. If you entered more than one practice location during setup, choose the appropriate location."
+            android:textColor="@color/darkness_gray"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:textSize="@dimen/sp_12" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_15">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/solid_circular_primary_dark"
+            android:text="3"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You're done! The Alerter will pop up automatically when an appointment is booked on Medicita."
+            android:textColor="@color/darkness_gray"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:textSize="@dimen/sp_12" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/let_us_buy_you_a_url"
+        android:layout_gravity="center"
+        android:textColor="@color/darkness_gray"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:textSize="@dimen/sp_12"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_50"/>
+
+</RelativeLayout>
+
+    </LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/dp_10"
+    android:paddingRight="@dimen/dp_50"
+    android:paddingTop="@dimen/dp_10"
+    android:paddingBottom="@dimen/dp_10"
+    android:background="@color/white">
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="@dimen/dp_10"
+        android:text="Password"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sp_14"
+        app:customFont="@string/font_regular"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvPractice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="@dimen/dp_10"
+        android:text="Practice"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sp_14"
+        app:customFont="@string/font_regular"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvDoctors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="@dimen/dp_10"
+        android:text="Doctors"
+        android:textColor="@color/colorPrimary"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_14" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvInsurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="@dimen/dp_10"
+        android:text="Insurance"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sp_14"
+        app:customFont="@string/font_regular"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvBilling"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="@dimen/dp_10"
+        android:text="Billing"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sp_14"
+        app:customFont="@string/font_regular"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvAlerter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="@dimen/dp_10"
+        android:text="Alerter"
+        android:textColor="@color/colorPrimary"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_14" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvYourWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="@dimen/dp_10"
+        android:text="Your Website"
+        app:customFont="@string/font_regular"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sp_14" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvWriteBlog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:gravity="start"
+        android:padding="@dimen/dp_10"
+        android:text="Write Blog"
+        android:textColor="@color/colorPrimary"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_14" />
+
+</LinearLayout>

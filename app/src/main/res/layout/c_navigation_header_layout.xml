@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/dp_120"
+              android:background="@color/yellow"
+              android:gravity="center"
+              android:orientation="horizontal"
+              android:paddingTop="@dimen/dp_20"
+    android:paddingLeft="@dimen/dp_20"
+    android:paddingRight="@dimen/dp_20"
+    android:paddingBottom="@dimen/dp_5"
+    android:layout_marginTop="@dimen/dp_10">
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.4"
+                  android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imvUserPick"
+            android:layout_width="@dimen/dp_70"
+            android:layout_height="@dimen/dp_70"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:src="@mipmap/user_circle"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.7"
+                  android:gravity="center_vertical"
+                  android:orientation="vertical"
+                  android:layout_marginLeft="@dimen/dp_20"
+                  android:padding="@dimen/dp_5">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matthew Mendez"
+            android:textColor="@color/gray_txt"
+            android:textSize="@dimen/sp_16"
+            app:customFont="@string/font_bold"/>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvUserAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5"
+            android:text="New York, NY, 10075"
+            android:textColor="@color/gray_txt"
+            android:textSize="@dimen/sp_14"
+            app:customFont="@string/font_light"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

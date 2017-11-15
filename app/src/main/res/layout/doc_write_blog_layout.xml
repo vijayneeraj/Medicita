@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_bg_img"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_weight="0"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp_15"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivBack"
+                android:layout_width="13dp"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/arrow_back"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Doctor &amp; Staff"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollIndicators="none"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivBanner"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/banner"
+                    android:scaleX="1"
+                    android:scaleY="1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:orientation="vertical">
+
+                    <com.medicitadocter.custom.CustomTextView
+                        android:id="@+id/tvForDoctors"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="For Doctors"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_25"
+                        android:textStyle="bold" />
+
+                    <com.medicitadocter.custom.CustomTextView
+                        android:id="@+id/tvForDoctorsLines"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dp_60"
+                        android:layout_marginRight="@dimen/dp_60"
+                        android:layout_marginTop="@dimen/dp_10"
+                        android:gravity="center"
+                        android:text="useful insights, advice and resources for running and growing your practice."
+                        android:textColor="@color/black_color"
+                        android:textSize="@dimen/sp_12" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/main_bg_img"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_10"
+                    android:paddingRight="@dimen/dp_10">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:scaleX="1"
+                        android:scaleY="1"
+                        android:background="@mipmap/add_blue"
+                        android:layout_weight="0"
+                        android:layout_margin="@dimen/dp_10"/>
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:scaleX="1"
+                        android:scaleY="1"
+                        android:background="@mipmap/add_blue"
+                        android:layout_weight="0"
+                        android:layout_margin="@dimen/dp_10"/>
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="80dp"
+                        android:scaleX="1"
+                        android:scaleY="1"
+                        android:background="@mipmap/add_blue"
+                        android:layout_weight="0"
+                        android:layout_margin="@dimen/dp_10"/>
+                </LinearLayout>
+
+                <com.medicitadocter.custom.CustomEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="start|center"
+                    android:text="Title Here"
+                    android:background="@drawable/rounded_corner_light_gray"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/sp_12"
+                    android:padding="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+
+                <com.medicitadocter.custom.CustomEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:gravity="start|center"
+                    android:text="Description\nTitle Here\nTitle Here\nTitle Here\nTitle Here\nTitle Here\nTitle Here\nTitle Here"
+                    android:background="@drawable/rounded_corner_light_gray"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="@dimen/sp_12"
+                    android:padding="@dimen/dp_10"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+
+                <com.medicitadocter.custom.CustomTextView
+                    android:id="@+id/tvSubmit"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="SUBMIT"
+                    android:textAllCaps="true"
+                    android:background="@color/yellow"
+                    android:textColor="@color/black_color"
+                    android:textSize="@dimen/sp_14"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_10"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/dp_30"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_marginLeft="@dimen/dp_10">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_marginRight="@dimen/dp_50"
+                        android:orientation="horizontal">
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="start|center"
+                        android:textColor="@color/black_color"
+                        android:textSize="@dimen/sp_14"
+                        android:layout_weight="1"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/down_arrow_white"
+                            android:layout_gravity="center"
+                            android:scaleY="0.5"
+                            android:scaleX="0.5"
+                            android:paddingRight="@dimen/dp_5"
+                            android:paddingLeft="@dimen/dp_5"
+                            android:backgroundTint="@color/darkness_gray"/>
+
+                    </LinearLayout>
+
+                    <com.medicitadocter.custom.CustomTextView
+                        android:id="@+id/tvExploreMore"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Explore More"
+                        android:background="@color/colorPrimaryDark"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_14"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:visibility="gone">
+
+                </android.support.v7.widget.RecyclerView>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:layout_marginBottom="@dimen/dp_5">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                <include layout="@layout/doc_write_blog_content_item" />
+                    <include layout="@layout/doc_write_blog_content_item" />
+                    <include layout="@layout/doc_write_blog_content_item" />
+                    <include layout="@layout/doc_write_blog_content_item" />
+                </LinearLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

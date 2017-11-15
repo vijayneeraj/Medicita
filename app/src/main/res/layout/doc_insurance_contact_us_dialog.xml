@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_10"
+    android:padding="@dimen/dp_20"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/rounded_corner_light_gray">
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="There are currently no patients in the Waiting Room."
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_10" />
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="By Clicking Complete And Leave This Visit"
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_10"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="you will end this session and return to the waiting room."
+        android:textColor="@color/black_color"
+        android:textSize="@dimen/sp_10"
+        android:layout_marginTop="@dimen/dp_10"/>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Complete And Leave This Visit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_12"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="@dimen/dp_30"/>
+
+</LinearLayout>

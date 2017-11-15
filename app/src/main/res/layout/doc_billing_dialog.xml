@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_10"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/rounted_corner_light_gray_solid_white">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:background="@color/colorPrimary">
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvDialogTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Billing"
+            android:textColor="@color/whit_txt"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            app:customFont="@string/font_regular"
+            android:layout_marginLeft="@dimen/dp_10"/>
+        <ImageView
+            android:id="@+id/ivCancel"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:background="@mipmap/close"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/dp_5" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+   <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount to charge patient"
+        android:textColor="@color/black_color"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="@dimen/sp_15"
+       app:customFont="@string/font_regular"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:orientation="horizontal"
+        android:background="@color/black_color"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/dp_1"
+        android:layout_marginTop="@dimen/dp_20">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:text="$"
+            android:background="@color/light_gray"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:customFont="@string/font_regular"
+            android:textSize="@dimen/sp_15" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="44449.00"
+            android:background="@color/white"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:customFont="@string/font_regular"
+            android:textSize="@dimen/sp_15" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="Charge Patient"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:customFont="@string/font_regular"
+            android:textSize="@dimen/sp_15" />
+
+    </LinearLayout>
+
+    <com.medicitadocter.custom.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5 minutes"
+        android:textColor="@color/black_color"
+        android:layout_gravity="center"
+        app:customFont="@string/font_regular"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/dp_20"/>
+
+        <com.medicitadocter.custom.CustomTextView
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:text="Do Not Charge for Visit"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/rounded_corner_bleed_blue"
+            app:customFont="@string/font_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="@dimen/sp_16"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_marginBottom="@dimen/dp_20"/>
+
+    </LinearLayout>
+
+</LinearLayout>

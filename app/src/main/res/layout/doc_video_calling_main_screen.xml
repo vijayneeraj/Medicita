@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rlMain"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chat_main_bg">
+
+    <LinearLayout
+        android:id="@+id/llTitleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/dp_10"
+        android:background="@color/transparent_black_shade">
+
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_weight="0"
+            android:gravity="start|center"
+            android:text="Gray Gower"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_15" />
+
+        <com.medicitadocter.custom.CustomTextView
+            android:id="@+id/tvSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_weight="0"
+            android:gravity="start|center"
+            android:text="1.20"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14"
+            android:layout_marginTop="@dimen/dp_5"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llVideoCallControls"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/transparent_colorPrimary"
+        android:orientation="horizontal"
+        android:layout_below="@+id/llTitleName"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_25"
+        android:layout_marginLeft="@dimen/dp_25">
+
+        <LinearLayout
+            android:id="@+id/llVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:background="@mipmap/video_call"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivMice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:background="@mipmap/mike"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSpeaker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivSpeaker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:background="@mipmap/mute"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llShare"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/ivShare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:background="@mipmap/share_white"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llClientVideoView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corner_light_gray"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/llVideoChatServices"
+        android:layout_margin="@dimen/dp_10">
+
+        <ImageView
+            android:id="@+id/ivClientVideoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_client_img"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llVideoChatServices"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_above="@+id/ivCallDisconnect">
+
+        <LinearLayout
+            android:id="@+id/llMessages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        <ImageView
+            android:id="@+id/ivMessages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1"
+            android:scaleY="1.1"
+            android:background="@mipmap/chat"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ivAttachment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1"
+            android:scaleY="1.1"
+            android:layout_weight="1"
+            android:background="@mipmap/attachment"/>
+
+        <ImageView
+            android:id="@+id/ivNote"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1"
+            android:scaleY="1.1"
+            android:layout_weight="1"
+            android:background="@mipmap/list"/>
+
+        <ImageView
+            android:id="@+id/ivRx"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1"
+            android:scaleY="1.1"
+            android:layout_weight="1"
+            android:background="@mipmap/rx"/>
+
+        <ImageView
+            android:id="@+id/ivDollar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1"
+            android:scaleY="1.1"
+            android:layout_weight="1"
+            android:background="@mipmap/price"/>
+
+        <ImageView
+            android:id="@+id/ivHelp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1"
+            android:scaleY="1.1"
+            android:layout_weight="1"
+            android:background="@mipmap/help"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivCallDisconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/call_end"
+        android:scaleY="0.7"
+        android:scaleX="0.8"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dp_10"/>
+
+</RelativeLayout>

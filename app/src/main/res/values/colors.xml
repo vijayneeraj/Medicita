@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#355879</color>
+    <color name="colorPrimaryDark">#234261</color>
+    <color name="colorAccent">#2d597a</color>
+
+    <color name="login_color">#B6CDDF</color>
+    <color name="violet_blue">#2C597A</color>
+    <color name="blue">#2d597a</color>
+    <color name="yellow">#e0bf65</color>
+    <color name="whit_txt">#F2F4F6</color>
+    <color name="gray_txt">#232B29</color>
+    <color name="light_gray">#BFBFBF</color>
+    <color name="black_color">#000000</color>
+    <color name="dark_gray">#8F8F8F</color>
+    <color name="darkness_gray">#616466</color>
+    <color name="pink_light">#F8D0D4</color>
+    <color name="pink">#F76574</color>
+    <color name="white">#fff</color>
+    <color name="light_orange">#E8BC6E</color>
+    <color name="btn_gray">#DADAE6</color>
+    <color name="light_blue">#cdd5e1</color>
+    <color name="message">#ebebef</color>
+    <color name="bleed_blue">#1689e6</color>
+    <color name="light_yellow">#eadec2</color>
+    <color name="green">#36ca4a</color>
+    <color name="red">#ba0000</color>
+    <color name="light_bleed_blue">#c8e7ed</color>
+    <color name="transparent_black_shade">#6c000000</color>
+    <color name="transparent_colorPrimary">#dc355879</color>
+    <color name="transparent_yellow">#d5dfbb5a</color>
+    <color name = "transparent">@android:color/transparent</color>
+
+</resources>

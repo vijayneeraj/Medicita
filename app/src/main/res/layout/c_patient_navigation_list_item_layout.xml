@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dp_10"
+    android:paddingTop="@dimen/dp_2"
+    android:paddingBottom="@dimen/dp_2"
+    android:paddingRight="@dimen/dp_10">
+
+    <com.medicitadocter.custom.CustomTextView
+        android:id="@+id/tvNviItemName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text=""
+        android:textColor="@color/whit_txt"
+        android:textSize="@dimen/sp_14"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        app:customFont="@string/font_regular"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp"
+        android:layout_marginTop="@dimen/dp_2"
+        android:background="@color/light_gray" />
+
+</LinearLayout>
